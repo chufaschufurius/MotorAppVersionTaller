@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/motorapp/proyectodam/motorappversiontaller/ListaTareasTaller.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/motorapp/proyectodam/motorappversiontaller/MainActivity.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/motorapp/proyectodam/motorappversiontaller/PedirPiezas.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/motorapp/proyectodam/motorappversiontaller/Taller.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/motorapp/proyectodam/motorappversiontaller/TareaTaller.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_lista_tareas_taller.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_pedir_piezas.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_taller.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_tarea_taller.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/content_taller.xml" charset="windows-1252" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

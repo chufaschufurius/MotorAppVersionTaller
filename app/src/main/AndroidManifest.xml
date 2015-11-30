@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.motorapp.proyectodam.motorappversiontaller" >
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ruedaicono"
+        android:label="@string/app_name"
+        android:statusBarColor="#2742a9"
+        android:supportsRtl="true"
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ListaTareasTaller"
+            android:label="@string/title_activity_lista_tareas_taller" >
+        </activity>
+        <activity
+            android:name=".TareaTaller"
+            android:label="@string/title_activity_tarea_taller" >
+        </activity>
+        <activity
+            android:name=".PedirPiezas"
+            android:label="@string/title_activity_pedir_piezas" >
+        </activity>
+    </application>
+
+</manifest>
