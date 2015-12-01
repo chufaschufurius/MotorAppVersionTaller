@@ -2,6 +2,7 @@ package com.motorapp.proyectodam.motorappversiontaller;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.Menu;
@@ -12,12 +13,12 @@ import android.widget.ProgressBar;
 import com.koushikdutta.ion.Ion;
 import com.parse.Parse;
 
-public class MainActivity extends AppCompatActivity {
+public class SplashScreen extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_splash_screen);
         ProgressBar progressBar=new ProgressBar(getApplicationContext());
         ImageView imageView= (ImageView)findViewById(R.id.imageSplash);
         Ion.with(imageView).load("http://2.bp.blogspot.com/-SBtthYnAjzE/U1eEF9upHSI/AAAAAAAABZ8/bo0pxhnvHOg/s1600/Imagen-animada-Motor-15.gif");
@@ -27,13 +28,15 @@ public class MainActivity extends AppCompatActivity {
 
         Parse.initialize(this, "rhJjlsANpxGikehq4WLxFR6KI6cQThGnnZy4x1Xo", "0eI1uNLoUIrX6FHVaN0IrSaQcgIjztVzCVYtXBiJ");
 
-//      progressBar.setBackgroundColor("#FFEB3B");
-        try {
-            Thread.sleep(10);
-            new ListaTareasTaller();
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+        //Abre la siguiente activity despues del tiempo indicado y evita que se vuelva a abrir al usar le botón atrás
+        new Handler().postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                final Intent mainIntent = new Intent(SplashScreen.this, ListaTareasTaller.class);
+                SplashScreen.this.startActivity(mainIntent);
+                SplashScreen.this.finish();
+            }
+        }, 4000);
     }
 
     @Override
@@ -41,19 +44,6 @@ public class MainActivity extends AppCompatActivity {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_main, menu);
         return true;
-    }
-
-    public void lanzarListaTareas(View view){
-        Intent intent= new Intent(this, ListaTareasTaller.class);
-        startActivity(intent);
-    }
-
-    public void esperar (int segundos) {
-        try {
-            Thread.sleep (segundos*1000);
-        } catch (Exception e) {
-// Mensaje en caso de que falle
-        }
     }
 
     @Override
