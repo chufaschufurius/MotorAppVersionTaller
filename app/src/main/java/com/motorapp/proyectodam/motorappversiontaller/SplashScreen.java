@@ -3,18 +3,22 @@ package com.motorapp.proyectodam.motorappversiontaller;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+import android.support.v4.app.FragmentManager;
 import android.support.v7.app.AppCompatActivity;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
 
 import com.koushikdutta.ion.Ion;
 import com.parse.Parse;
 
-public class SplashScreen extends AppCompatActivity {
-
+public class SplashScreen extends AppCompatActivity implements SimpleDialog.OnSimpleDialogListener{
+    Button button;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -39,6 +43,16 @@ public class SplashScreen extends AppCompatActivity {
         }, 4000);
     }
 
+//
+//    @Override
+//    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+//                             Bundle savedInstanceState) {
+//
+//        View v = inflater.inflate(R.layout. fragment_main, container, false);
+//        FragmentManager fragmentManager = getFragmentManager();
+//        return v;
+//    }
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
@@ -58,5 +72,15 @@ public class SplashScreen extends AppCompatActivity {
             return true;
         }
         return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    public void onPossitiveButtonClick() {
+
+    }
+
+    @Override
+    public void onNegativeButtonClick() {
+
     }
 }

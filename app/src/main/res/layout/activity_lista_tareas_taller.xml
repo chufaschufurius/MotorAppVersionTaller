@@ -68,23 +68,29 @@
         android:background="#FFFFFF"
             android:inputType="textMultiLine"
             android:text="TAREA 1:       CAMBIO DE ACEITE, FILTROS"
-            android:onClick="lanzarTarea" />
+            android:onClick="lanzarTarea"
+            android:id="@+id/tarea1" />
 
         <CheckBox
         android:paddingLeft="4px"
         android:textAlignment="center"
-        android:layout_gravity="center_vertical"/>
+        android:layout_gravity="center_vertical"
+            android:checked="false"
+            android:id="@+id/checkbox1" />
     </TableRow>
     <TableRow>
         <Button
             android:layout_height="200px"
             android:background="#625353"
             android:text="TAREA 2:       CAMBIO DE ACEITE, FILTROS"
-            android:onClick="lanzarTarea" />
+            android:onClick="lanzarTarea"
+            android:id="@+id/tarea2" />
         <CheckBox
             android:paddingLeft="4px"
             android:textAlignment="center"
-            android:layout_gravity="center_vertical"/>
+            android:layout_gravity="center_vertical"
+            android:checked="false"
+            android:id="@+id/checkbox2" />
     </TableRow>
     <TableRow>
         <Button
@@ -92,23 +98,29 @@
             android:background="#FFFFFF"
             android:inputType="textMultiLine"
             android:text="TAREA 1:       CAMBIO DE ACEITE, FILTROS"
-            android:onClick="lanzarTarea" />
+            android:onClick="lanzarTarea"
+            android:id="@+id/tarea3" />
 
         <CheckBox
             android:paddingLeft="4px"
             android:textAlignment="center"
-            android:layout_gravity="center_vertical"/>
+            android:layout_gravity="center_vertical"
+            android:checked="false"
+            android:id="@+id/checkbox3" />
     </TableRow>
     <TableRow>
         <Button
             android:layout_height="200px"
             android:background="#625353"
             android:text="TAREA 2:       CAMBIO DE ACEITE, FILTROS"
-            android:onClick="lanzarTarea" />
+            android:onClick="lanzarTarea"
+            android:id="@+id/tarea4" />
         <CheckBox
             android:paddingLeft="4px"
             android:textAlignment="center"
-            android:layout_gravity="center_vertical"/>
+            android:layout_gravity="center_vertical"
+            android:checked="false"
+            android:id="@+id/checkbox4" />
     </TableRow>
     <TableRow>
         <Button
@@ -116,23 +128,29 @@
             android:background="#FFFFFF"
             android:inputType="textMultiLine"
             android:text="TAREA 1:       CAMBIO DE ACEITE, FILTROS"
-            android:onClick="lanzarTarea" />
+            android:onClick="lanzarTarea"
+            android:id="@+id/tarea5" />
 
         <CheckBox
             android:paddingLeft="4px"
             android:textAlignment="center"
-            android:layout_gravity="center_vertical"/>
+            android:layout_gravity="center_vertical"
+            android:checked="false"
+            android:id="@+id/checkbox5" />
     </TableRow>
     <TableRow>
         <Button
             android:layout_height="200px"
             android:background="#625353"
             android:text="TAREA 2:       CAMBIO DE ACEITE, FILTROS"
-            android:onClick="lanzarTarea" />
+            android:onClick="lanzarTarea"
+            android:id="@+id/tarea6" />
         <CheckBox
             android:paddingLeft="4px"
             android:textAlignment="center"
-            android:layout_gravity="center_vertical"/>
+            android:layout_gravity="center_vertical"
+            android:checked="false"
+            android:id="@+id/checkbox6" />
     </TableRow>
     <TableRow>
         <Button
@@ -140,23 +158,29 @@
             android:background="#FFFFFF"
             android:inputType="textMultiLine"
             android:text="TAREA 1:       CAMBIO DE ACEITE, FILTROS"
-            android:onClick="lanzarTarea" />
+            android:onClick="lanzarTarea"
+            android:id="@+id/tarea7" />
 
         <CheckBox
             android:paddingLeft="4px"
             android:textAlignment="center"
-            android:layout_gravity="center_vertical"/>
+            android:layout_gravity="center_vertical"
+            android:checked="false"
+            android:id="@+id/checkbox7" />
     </TableRow>
     <TableRow>
         <Button
             android:layout_height="200px"
             android:background="#625353"
             android:text="TAREA 2:       CAMBIO DE ACEITE, FILTROS"
-            android:onClick="lanzarTarea" />
+            android:onClick="lanzarTarea"
+            android:id="@+id/tarea8" />
         <CheckBox
             android:paddingLeft="4px"
             android:textAlignment="center"
-            android:layout_gravity="center_vertical"/>
+            android:layout_gravity="center_vertical"
+            android:checked="false"
+            android:id="@+id/checkbox8" />
     </TableRow>
     <TableRow>
         <Button
@@ -164,23 +188,29 @@
             android:background="#FFFFFF"
             android:inputType="textMultiLine"
             android:text="TAREA 1:       CAMBIO DE ACEITE, FILTROS"
-            android:onClick="lanzarTarea" />
+            android:onClick="lanzarTarea"
+            android:id="@+id/tarea9" />
 
         <CheckBox
             android:paddingLeft="4px"
             android:textAlignment="center"
-            android:layout_gravity="center_vertical"/>
+            android:layout_gravity="center_vertical"
+            android:checked="false"
+            android:id="@+id/checkbox9" />
     </TableRow>
     <TableRow>
         <Button
             android:layout_height="200px"
             android:background="#625353"
             android:text="TAREA 2:       CAMBIO DE ACEITE, FILTROS"
-            android:onClick="lanzarTarea" />
+            android:onClick="lanzarTarea"
+            android:id="@+id/tarea10" />
         <CheckBox
             android:paddingLeft="4px"
             android:textAlignment="center"
-            android:layout_gravity="center_vertical"/>
+            android:layout_gravity="center_vertical"
+            android:checked="false"
+            android:id="@+id/checkbox10"/>
     </TableRow>
 </TableLayout>
 </ScrollView>

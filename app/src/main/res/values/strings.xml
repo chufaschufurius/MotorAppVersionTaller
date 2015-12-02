@@ -3,6 +3,7 @@
     <string name="action_settings">Settings</string>
     <string name="imagenpiston">imagenPistones</string>
     <string name="textViewApp">MotorApp</string>
+    <string name="todo">todo</string>
     <string name="title_activity_lista_tareas_taller">ListaTareasTaller</string>
     <string name="title_activity_tarea_taller">TareaTaller</string>
     <string name="title_activity_pedir_piezas">PedirPiezas</string>
